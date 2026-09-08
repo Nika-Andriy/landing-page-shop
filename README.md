@@ -1,55 +1,80 @@
-# MyBike — Electric Bike Landing Page
+# MyBike Landing Page
 
-A single-page marketing website for an electric bike brand. The page presents the product line, highlights key features and technical details, and provides a contact form for potential customers.
+A landing page for the MyBike electric bike brand, created to showcase the product line, its technical features, and contact details.
 
-## Live Preview
+## Project Description
 
-🔗 [Live Demo](https://Nika-Andriy.github.io/landing-page-shop/)
+The MyBike Landing Page is a single-page website designed to provide visitors with key information about the MyBike electric bike brand. It includes sections for general information about the brand, a comparison of available bike models, detailed technical highlights, and contact details. The page is designed to be visually appealing and user-friendly, making it easy for visitors to find the information they need.
 
-## Design Reference
+## Technical Requirements
 
-🎨 [Figma Design](https://www.figma.com/design/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?node-id=0-1&p=f&t=b8ExsZloBqjKMSxm-0)
+To run this project, you will need:
 
-## Technologies Used
+- **Node.js** (version 14.x or newer): A JavaScript runtime built on Chrome's V8 JavaScript engine, used for server-side scripting.
+- **NPM** (version 6.x or newer): The Node.js package manager, used for managing project dependencies.
 
-- **HTML5** — semantic markup
-- **SCSS** — modular styling (BEM-based block structure)
-- **JavaScript (Vanilla)** — interactivity (mobile menu, etc.)
-- **Parcel** — bundler and dev server
-- **ESLint / Stylelint / LintHTML** — code quality and formatting
-- **GitHub Pages** — hosting and deployment
+## Installation and Setup
 
-## Getting Started
-
-To run this project locally, follow these steps:
+To install the project and run it locally, follow these steps:
 
 1. Clone the repository:
 
     ```
-    git clone https://github.com/your-username/landing-page-shop.git
+    git clone https://github.com/Nika-Andriy/landing-page-shop.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```
     cd landing-page-shop
     ```
 
-2. Install dependencies:
+3. Install dependencies:
 
     ```
     npm install
     ```
 
-3. Run the project locally:
+4. Start the local development server:
 
     ```
     npm start
     ```
 
-4. Open the local address shown in the terminal (usually `http://localhost:1234`) in your browser.
+## Usage
+
+After starting the project, it will be available at `http://localhost:1234`. You can use this URL to preview the landing page and ensure it displays correctly. You can also make changes to the project files and see updates in real-time.
 
 ## Features
 
-- **Responsive Design**: Adapts to mobile, tablet, and desktop screen sizes.
-- **Sticky Navigation**: Header with quick links to About Us, Compare Bikes, and Contacts sections.
-- **Mobile Menu**: Collapsible burger menu for smaller screens.
-- **Product Comparison**: Compare bikes section showcasing multiple bike models side by side.
-- **Feature Highlights**: Dedicated "Details" section describing key technical features (brakes, battery, lights).
-- **Contact Form**: A form for visitors to reach out, alongside phone, email, and address details.
-- **Optimized Images**: WebP images with PNG fallback for faster loading.
+- **Responsive Design:** The page is designed to look great on both desktop and mobile devices.
+- **Interactive Elements:** JavaScript is used to enhance user interactions, such as the top-bar phone number reveal on hover.
+- **Modern Aesthetics:** Utilizes modern web design practices to ensure a visually appealing experience.
+- **Accessibility:** Focuses on providing an accessible experience for all users, including those with disabilities.
+
+## Example
+
+You can view a live demo of the project here: [DEMO LINK](https://nika-andriy.github.io/landing-page-shop/)
+
+## Technologies Used
+
+This project was built using the following technologies:
+
+- **HTML5:** For structuring the content on the web page, ensuring semantic and accessible markup.
+- **CSS3:** For styling the web page, including layout and responsive design features.
+- **Sass:** A CSS preprocessor that helps to write cleaner and more maintainable CSS with features like variables, nested rules, and mixins.
+- **JavaScript (ES6):** For adding interactivity and dynamic functionality to the web page, using modern JavaScript features.
+- **Node.js:** For server-side development and running JavaScript on the server.
+- **NPM:** For managing project dependencies and scripts.
+- **Parcel:** A web application bundler that simplifies the process of building and optimizing the project, with zero configuration.
+- **Git:** For version control, tracking changes to the codebase.
+- **GitHub:** For hosting the repository, collaborative development, and project management.
+
+## Contribution Guidelines
+
+If you wish to contribute to this project, please follow these guidelines:
+
+1. **Fork the repository:** Create your own copy of the project on GitHub.
+2. **Clone your fork:** Download your copy to your local machine.
+3. **Create a branch:** Develop your feature or fix on a separate branch.
+4. **Submit a pull request:** Propose your changes to be merged into the main project.
